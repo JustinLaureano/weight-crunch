@@ -1,0 +1,10 @@
+.navigation {
+	display: flex;
+	flex-shrink: 0;
+	justify-content: space-between;
+	height: $nav-height;
+	width: 100%;
+	padding: $m-size;
+	background: $medium-gray;
+	z-index: 999;
+}

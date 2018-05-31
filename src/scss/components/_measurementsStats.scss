@@ -1,0 +1,27 @@
+.measurementsStats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.measurementsStats__togglebar {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    padding: 1.6rem .3rem;
+    font-size: $font-size-small;
+    min-height: 60px;
+}
+
+.measurementsStats__button {
+    background: $dark-gray;
+    color: $off-white;
+    border: 1px solid $off-white;
+    border-radius: 15px;
+    padding: .4rem 1rem;
+    min-width: 30vw;
+    &:hover {
+        color: $gold;
+        border: 1px solid $gold;
+    }
+}

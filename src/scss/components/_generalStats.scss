@@ -1,0 +1,38 @@
+.generalStats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    padding: $l-size;
+    background: $background-dark;
+    border-bottom: 1px solid $off-white;
+}
+
+.generalStats__goalDifference,
+.generalStats__goalTargets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generalStats__goalDifference {
+    line-height: 0;
+}
+
+.generalStats__goalTargets {
+    line-height: 0.4;
+}
+
+.generalStats__goalNumber {
+    font-size: 5em;
+    color: $turquoise;
+    margin: $l-size 0;
+}
+
+.generalStats__startWeight p {
+    color: $red;
+}
+
+.generalStats__goalWeight p {
+    color: $gold;
+}

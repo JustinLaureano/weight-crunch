@@ -1,0 +1,20 @@
+.measurementsChart {
+    position: relative;
+    height: 40vh;
+    width: 90vw;
+    margin: 0 0 $m-size 0;
+}
+
+.measurementsChart__viewOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.measurementsChart__optionButton,
+.measurementsChart__optionButton--active {
+    font-size: $font-size-small;
+}
+
+.measurementsChart__optionButton--active {
+    color: $gold;
+}

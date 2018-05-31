@@ -1,0 +1,50 @@
+.measurementsProgress {
+    background: $background-dark;
+    border: 1px solid $off-white;
+    border-radius: 8px;
+    padding: $s-size 0;
+    width: 85%;
+}
+
+.measurementsProgress__heading {
+    color: $gold;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.measurementsProgress__categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.measurementsProgress__category {
+    display: flex;
+    align-items: center;
+    font-size: $font-size-small;
+    padding-left: 2.8rem;
+    width: 50%;
+}
+
+.measurementsProgress__categoryName,
+.measurementsProgress__totalGain,
+.measurementsProgress__totalLoss {
+    margin: .5rem 0;
+}
+
+.measurementsProgress__categoryName--loss {
+    color: $turquoise;
+}
+
+.measurementsProgress__categoryName--gain {
+    color: $red;
+}
+
+.measurementsProgress__totalGain span {
+    color: $red;
+}
+
+.measurementsProgress__totalLoss span {
+    color: $turquoise;
+}

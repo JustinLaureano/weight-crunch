@@ -1,0 +1,19 @@
+.container__private {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.container__page,
+.container__measurementsChart {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    background: $background-dark;
+}
+
+.container__measurementsChart {
+    align-items: center;
+    justify-content: space-around;
+}

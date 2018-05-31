@@ -1,0 +1,11 @@
+.dashboard__overview,
+.dashboard__settings {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard__settings {
+    justify-content: space-around;
+    padding: 0 $l-size;
+}

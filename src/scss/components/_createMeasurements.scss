@@ -1,0 +1,141 @@
+.createMeasurements {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 0 $m-size;
+    margin: $m-size 0;
+}
+
+.createMeasurements__directions {
+    margin: 0;
+    font-size: $font-size-small;
+}
+
+.createMeasurements__form {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: $m-size $m-size $m-size 0;
+}
+
+.createMeasurements__inputGroup {
+    position: relative;
+}
+
+.createMeasurements__input {
+    border: none;
+    border-bottom: 1px solid $off-white;
+    color: $off-white;
+    display: block;
+    width: 80%;
+    padding: $s-size 0;
+    &:focus {
+        outline: none;
+      }
+      &:focus ~ label,
+      &:not(:placeholder-shown) ~ label {
+        top: -$font-size-small;
+        font-size: $font-size-small;
+      }
+      &:focus ~ .createMeasurements__chest {
+        color: $red;
+      }
+}
+
+.createMeasurements__inputGroup label {
+    font-size: $m-size;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: .3s ease all;
+}
+
+.createMeasurements__chest {
+    color: $red;
+}
+
+.createMeasurements__waist {
+    color: $gold;
+}
+
+.createMeasurements__hips {
+    color: $turquoise;
+}
+
+.createMeasurements__thighs {
+    color: $purple;
+}
+
+.createMeasurements__calves {
+    color: $light-blue;
+}
+
+.createMeasurements__form input {
+    width: 80%;
+}
+
+.createMeasurements__current {
+    color: $off-white;
+}
+
+.createMeasurements__loss {
+    color: $turquoise;
+}
+
+.createMeasurements__gain {
+    color: $red;
+}
+
+.createMeasurements__visual {
+    width: 65%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $off-white;
+    border-radius: 8px;
+}
+
+.createMeasurements__img {
+    height: 100%;
+}
+
+.createMeasurements__chest {
+    &::placeholder {
+        color: $red;
+    }
+}
+
+.createMeasurements__waist {
+    &::placeholder {
+        color: $gold;
+    }
+}
+
+.createMeasurements__hips {
+    &::placeholder {
+        color: $turquoise;
+    }
+}
+
+.createMeasurements__thighs {
+    &::placeholder {
+        color: $purple;
+    }
+}
+
+.createMeasurements__calves {
+    &::placeholder {
+        color: $light-blue;
+    }
+}
+
+.createMeasurements__submit {
+    font-size: $font-size-small;
+    text-align: left;
+}

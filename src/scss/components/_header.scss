@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: $header-height;
+    align-items: center;
+    background: $medium-gray;
+    line-height: 0;
+    padding: .8rem $l-size;
+    border-bottom: 1px solid $off-white;
+}
+
+.header__title {
+    font-size: $font-size-xlarge;
+    text-transform: uppercase;
+}
+
+.header__pageView {
+    color: $turquoise;
+}

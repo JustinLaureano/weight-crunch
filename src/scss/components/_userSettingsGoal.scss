@@ -1,0 +1,42 @@
+.settingsGoal {
+    padding: 1.6rem 3.2rem;
+    border: 1px solid $off-white;
+    border-radius: 8px;
+}
+
+.settingsGoal__heading {
+    display: flex;
+    justify-content: space-between;
+    & > * {
+        margin: 0 0 $m-size 0;;
+    }
+}
+
+.settingsGoal__goals {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsGoal__goalItem {
+    display: flex;
+    justify-content: space-between;
+    & > * {
+        margin: 0;
+    }
+}
+
+.settingsGoals__editButtons {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settingsGoal__editGoalItem {
+    width: 20%;
+}
+
+.settingsGoal__error {
+    margin-top: -10px;
+    color: $red;
+    font-size: $font-size-small;
+}

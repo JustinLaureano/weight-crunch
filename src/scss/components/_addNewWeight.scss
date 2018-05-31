@@ -1,0 +1,16 @@
+.addNewWeight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 $s-size;
+}
+
+.addNewWeight__form {
+    width: 100%;
+}
+
+.addNewWeight__input {
+    width: 90%;
+    margin: 0 auto;
+    color: $off-white;
+}

@@ -1,0 +1,19 @@
+.weightChart {
+    position: relative;
+    height: 40vh;
+    width: 90vw;
+}
+
+.weightChart__viewOptions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weightChart__optionButton,
+.weightChart__optionButton--active {
+    font-size: $font-size-small;
+}
+
+.weightChart__optionButton--active {
+    color: $gold;
+}

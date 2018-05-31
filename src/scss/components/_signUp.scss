@@ -1,0 +1,11 @@
+.signUp {
+    padding: $l-size;
+}
+
+.signUp__input {
+    display: block;
+    margin: $l-size auto;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+}

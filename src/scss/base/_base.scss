@@ -1,0 +1,58 @@
+* {
+  	box-sizing: border-box;
+}
+
+html {
+  	font-size: 62.5%;
+}
+
+body {
+  	font-family: 'Karla', Helvetica, Arial, sans-serif;
+  	font-size: $m-size;
+  	color: $off-white;
+  	line-height: 1.6;
+}
+
+a {
+  	text-decoration: none;
+  	color: $off-white;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+ul {
+  	list-style: none;
+}
+
+button {
+  	cursor: pointer;
+	color: $off-white;
+	background: none;
+	border: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+button:disabled {
+  	cursor: default;
+}
+
+input {
+  	display: block;
+  	background: none;
+  	border: none;
+	  border-bottom: 1px solid $off-white;
+	  color: $off-white;
+  	&::placeholder {
+		color: $off-white;
+		font-family: 'Karla', Helvetica, Arial, sans-serif;
+	}
+}
+
+input:focus,
+select:focus {
+  	outline: none;
+}
